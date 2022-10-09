@@ -1,0 +1,76 @@
+/* Overwrite */
+@media (min-width: 576px) {
+    .col-sm-12 {
+        padding-bottom: 1.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        padding-bottom: 1.7rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        padding-bottom: 1.7rem;
+      }
+}
+
+.table-responsive{
+  margin-top: 1.7rem;
+}
+
+.table{
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.search-btn{
+  margin-left: auto;
+  margin-right: auto;
+  width:auto
+}
+
+/*# Page chat et appels */
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    width: 5px;
+    background: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    width: 1em;
+    background-color: #ddd;
+    outline: 1px solid slategrey;
+    border-radius: 1rem;
+  }
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  .messages-box,
+  .chat-box {
+    height: 510px;
+    overflow-y: scroll;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  input::placeholder {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  .receive {
+    margin-left: auto;
+  }
+  
+  

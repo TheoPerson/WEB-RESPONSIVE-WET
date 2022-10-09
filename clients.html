@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="css/vendors/simplebar.css">
     <!-- Main styles for this application-->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/customStyle.css" rel="stylesheet">
     <!-- We use those styles to show code examples, you should remove them in your application.-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
     <link href="css/examples.css" rel="stylesheet">
@@ -92,6 +93,223 @@
       <header w3-include-html="header.html" class="header header-sticky mb-4"></header>
       <div class="body flex-grow-1 px-3">
         <div class="container-lg">
+
+          <form w3-include-html="researchForm.html"></form>
+
+          <div class="table-responsive">
+            <table class="table border mb-0">
+              <thead class="table-light fw-semibold">
+                <tr class="align-middle">
+                  <th class="text-center">
+                    <svg class="icon">
+                      <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-people"></use>
+                    </svg>
+                  </th>
+                  <th>Client</th>
+                  <th class="text-center">Info 1</th>
+                  <th>Info 2</th>
+                  <th class="text-center">Info 3</th>
+                  <th>Info 4</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody class="table">
+                <tr class="align-middle">
+                  <td class="text-center">
+                    <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/1.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                  </td>
+                  <td>
+                    <div>nom client</div>
+                  </td>
+                  <td class="text-center">
+                    <p>Texte</p>
+                  </td>
+                  <td>
+                    <p>Toujours plus de texte...</p>
+                  </td>
+                  <td class="text-center">
+                    <svg class="icon icon-xl">
+                      <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-mastercard"></use>
+                    </svg>
+                  </td>
+                  <td>
+                    <div class="fw-semibold">Texte</div>
+                  </td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                        </svg>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="align-middle">
+                  <td class="text-center">
+                    <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/2.jpg" alt="user@email.com"><span class="avatar-status bg-danger"></span></div>
+                  </td>
+                  <td>
+                    <div>nom client</div>
+                  </td>
+                  <td class="text-center">
+                    <p>Texte</p>
+                  </td>
+                  <td>
+                    <p>Toujours plus de texte...</p>
+                  </td>
+                  <td class="text-center">
+                    <svg class="icon icon-xl">
+                      <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-mastercard"></use>
+                    </svg>
+                  </td>
+                  <td>
+                    <div class="fw-semibold">Texte</div>
+                  </td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                        </svg>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="align-middle">
+                  <td class="text-center">
+                    <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/3.jpg" alt="user@email.com"><span class="avatar-status bg-warning"></span></div>
+                  </td>
+                  <td>
+                    <div>nom client</div>
+                  </td>
+                  <td class="text-center">
+                    <p>Texte</p>
+                  </td>
+                  <td>
+                    <p>Toujours plus de texte...</p>
+                  </td>
+                  <td class="text-center">
+                    <svg class="icon icon-xl">
+                      <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-stripe"></use>
+                    </svg>
+                  </td>
+                  <td>
+                    <div class="fw-semibold">Texte</div>
+                  </td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                        </svg>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="align-middle">
+                  <td class="text-center">
+                    <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"><span class="avatar-status bg-secondary"></span></div>
+                  </td>
+                  <td>
+                    <div>nom client</div>
+                  </td>
+                  <td class="text-center">
+                    <p>Texte</p>
+                  </td>
+                  <td>
+                    <p>Toujours plus de texte...</p>
+                  </td>
+                  <td class="text-center">
+                    <svg class="icon icon-xl">
+                      <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-paypal"></use>
+                    </svg>
+                  </td>
+                  <td>
+                    <div class="fw-semibold">Texte</div>
+                  </td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                        </svg>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="align-middle">
+                  <td class="text-center">
+                    <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                  </td>
+                  <td>
+                    <div>nom client</div>
+                  </td>
+                  <td class="text-center">
+                    <p>Texte</p>
+                  </td>
+                  <td>
+                    <p>Toujours plus de texte...</p>
+                  </td>
+                  <td class="text-center">
+                    <svg class="icon icon-xl">
+                      <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-apple-pay"></use>
+                    </svg>
+                  </td>
+                  <td>
+                    <div class="fw-semibold">Texte</div>
+                  </td>
+                  <td>
+                    <div class="dropdown dropup">
+                      <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                        </svg>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="align-middle">
+                  <td class="text-center">
+                    <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"><span class="avatar-status bg-danger"></span></div>
+                  </td>
+                  <td>
+                    <div>nom client</div>
+                  </td>
+                  <td class="text-center">
+                    <p>Texte</p>
+                  </td>
+                  <td>
+                    <p>Toujours plus de texte...</p>
+                  </td>
+                  <td class="text-center">
+                    <svg class="icon icon-xl">
+                      <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-amex"></use>
+                    </svg>
+                  </td>
+                  <td>
+                    <div class="fw-semibold">Texte</div>
+                  </td>
+                  <td>
+                    <div class="dropdown dropup">
+                      <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                        </svg>
+                      </button>
+                      <div class="float-end dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
         </div>
       </div>
       <footer w3-include-html="footer.html" class="footer">

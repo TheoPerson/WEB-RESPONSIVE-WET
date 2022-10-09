@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="css/vendors/simplebar.css">
     <!-- Main styles for this application-->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/customStyle.css" rel="stylesheet">
     <!-- We use those styles to show code examples, you should remove them in your application.-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
     <link href="css/examples.css" rel="stylesheet">
@@ -95,9 +96,9 @@
 
           <div class="row">
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-lg-6">
               <div class="card mb-4">
-                <div class="card-header"><strong>Chart</strong><span class="small ms-1">Pie</span></div>
+                <div class="card-header"><strong>Ventes</strong></div>
                 <div class="tab-content rounded-bottom">
                   <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-248">
                     <div class="c-chart-wrapper">
@@ -108,18 +109,35 @@
               </div>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-lg-6">
               <div class="card mb-4">
-                <div class="card-header"><strong>Chart</strong><span class="small ms-1">Radar</span></div>
+                <div class="card-header"><strong>Chiffres</strong></div>
+                  <div class="tab-content rounded-bottom">
+                    <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-535">
+                      <div class="c-chart-wrapper">
+                        <canvas id="canvas-1" width="749" height="374" style="display: block; box-sizing: border-box; height: 187px; width: 374.5px;"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="col-sm-12 col-lg-12">
+              <div class="card mb-4">
+                <div class="card-header"><strong>Titre</strong></div>
                 <div class="tab-content rounded-bottom">
                   <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-369">
                     <div class="c-chart-wrapper">
-                      <canvas id="canvas-4"></canvas>
+                      <canvas id="lineChart"></canvas>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+
+
+
 
           </div>
 

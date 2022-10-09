@@ -984,54 +984,67 @@ html:not([dir=rtl]) .offset-11 {
   .col-sm-auto {
     flex: 0 0 auto;
     width: auto;
+    padding: 0 15px 0 15px;
   }
   .col-sm-1 {
     flex: 0 0 auto;
     width: 8.33333333%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-2 {
     flex: 0 0 auto;
     width: 16.66666667%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-3 {
     flex: 0 0 auto;
     width: 25%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-9 {
     flex: 0 0 auto;
     width: 75%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-10 {
     flex: 0 0 auto;
     width: 83.33333333%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-11 {
     flex: 0 0 auto;
     width: 91.66666667%;
+    padding: 0 15px 0 15px;
   }
   .col-sm-12 {
     flex: 0 0 auto;
     width: 100%;
+    padding-bottom: 1.7rem;
   }
   html:not([dir=rtl]) .offset-sm-0 {
     margin-left: 0;
@@ -1213,6 +1226,7 @@ html:not([dir=rtl]) .offset-11 {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
+    padding-bottom: 1.7rem;
   }
   .col-md-7 {
     flex: 0 0 auto;
@@ -1410,6 +1424,7 @@ html:not([dir=rtl]) .offset-11 {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    padding-bottom: 1.7rem;
   }
   .col-lg-5 {
     flex: 0 0 auto;
