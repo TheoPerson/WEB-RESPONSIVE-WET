@@ -39,10 +39,10 @@
     <link rel="stylesheet" href="css/vendors/simplebar.css">
     <!-- Main styles for this application-->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/customStyle.css" rel="stylesheet"> <!-- Probleme de call css ?? jpp -->
     <!-- We use those styles to show code examples, you should remove them in your application.-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
     <link href="css/examples.css" rel="stylesheet">
-    <link href="css/customStyle.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
     <script>
@@ -57,6 +57,7 @@
       // Bootstrap ID
       gtag('config', 'UA-118965717-5');
     </script>
+    <!-- HTML include script -->
     <script>
       function includeHTML() {
         var z, i, elmnt, file, xhttp;
@@ -94,24 +95,69 @@
       <div class="body flex-grow-1 px-3">
         <div class="container-lg">
           <div class="container">
+
             <div class="row">
               <div class="col-sm-6">
-                1 of 2
+                <div class="card-content">
+                  <img class="avatar-img-contact" src="assets/img/avatars/1.jpg" alt="user@email.com">
+                  <div class="card-body-content">
+                    <h5 class="card-title">Directeur d'agence</h5>
+                    <p class="card-text">Nom et prénom</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-primary">Téléphone</button>
+                      <button type="button" class="btn btn-primary">Mail</button>
+                      <button type="button" class="btn btn-primary">Info</button>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-sm-6">
-                2 of 2
+                <div class="card-content">
+                  <img class="avatar-img-contact" src="assets/img/avatars/2.jpg" alt="user@email.com">
+                  <div class="card-body-content">
+                    <h5 class="card-title">Référent commercial</h5>
+                    <p class="card-text">Nom et prénom</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-primary">Téléphone</button>
+                      <button type="button" class="btn btn-primary">Mail</button>
+                      <button type="button" class="btn btn-primary">Info</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+
             <div class="row">
               <div class="col-sm-6">
-                1 of 2
+                <div class="card-content">
+                  <img class="avatar-img-contact" src="assets/img/avatars/3.jpg" alt="user@email.com">
+                  <div class="card-body-content">
+                    <h5 class="card-title">Référent administratif</h5>
+                    <p class="card-text">Nom et prénom</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-primary">Téléphone</button>
+                      <button type="button" class="btn btn-primary">Mail</button>
+                      <button type="button" class="btn btn-primary">Info</button>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-sm-6">
-                2 of 2
+                <div class="card-content">
+                  <img class="avatar-img-contact" src="assets/img/avatars/4.jpg" alt="user@email.com">
+                  <div class="card-body-content">
+                    <h5 class="card-title">Référent financier</h5>
+                    <p class="card-text">Nom et prénom</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-primary">Téléphone</button>
+                      <button type="button" class="btn btn-primary">Mail</button>
+                      <button type="button" class="btn btn-primary">Info</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             
-            </div>
           </div>
         </div>
       </div>
